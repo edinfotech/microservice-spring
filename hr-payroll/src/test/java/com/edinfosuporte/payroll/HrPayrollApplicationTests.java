@@ -15,7 +15,7 @@ class HrPayrollApplicationTests {
 	
 	@Test
 	public void getPaymentForWorkerAndShowThePayment() {
-		Long id = 1L;
+		Long id = 3L;
 		Integer days = 10; 
 		Assertions.assertThat(resource.getPaymentforWork(id, days).getBody().getName()).isNotNull();
 	}
